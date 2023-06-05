@@ -2,6 +2,13 @@
 # Take a input from a user - a,b
 # a+b, a-b,a*b,a/b
 
+
+# Promod Sir actually this code is working fine when non empty values is entered by the user 
+# but when user enters the empty values its not working
+# please guide on this
+# Thanks
+# Ravi
+
 a = input("Enter the value of a ")
 b = input("Enter the value of b ")
 
@@ -44,7 +51,6 @@ elif operators == "-":
 elif operators == "*":
     print("The Multiplication of a and b",mul)
 elif operators == "/":
-    
     print("The division of a and b ", div)
 else:
     print("Please enter the correct values of a,b and operators")
